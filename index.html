@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shape Detector</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Shape Detection</h1>
+
+      <div class="evaluation-section">
+        <h2>Evaluation</h2>
+        <button id="evaluateButton">Run Selected Evaluation</button>
+        <div id="evaluationResults"></div>
+      </div>
+
+      <input
+        type="file"
+        id="imageInput"
+        accept="image/*"
+        style="display: none"
+      />
+
+      <div class="display-section">
+        <div class="image-container">
+          <h3>Original Image</h3>
+          <canvas id="originalCanvas"></canvas>
+        </div>
+
+        <div class="results-container">
+          <h3>Detection Results</h3>
+          <div id="results"></div>
+        </div>
+      </div>
+
+      <div class="test-section">
+        <h2>Test Images</h2>
+        <div id="testImages"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

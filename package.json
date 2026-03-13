@@ -1,0 +1,25 @@
+{
+  "name": "shape-detector",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A TypeScript-based shape detection challenge for technical interviews. Candidates implement algorithms to detect and classify geometric shapes (circles, triangles, rectangles, pentagons, stars) in images.",
+  "keywords": [
+    "shape-detection",
+    "computer-vision",
+    "typescript",
+    "interview",
+    "algorithm",
+    "image-processing"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7"
+  }
+}
