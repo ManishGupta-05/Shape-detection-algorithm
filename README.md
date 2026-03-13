@@ -1,4 +1,4 @@
-# Shape Detection Challenge – Solution
+# Shape Detection Algorithm – Imlimentation
 
 ## Overview
 
