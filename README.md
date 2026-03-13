@@ -1,4 +1,4 @@
-# Shape Detection Algorithm – Imlimentation
+# Shape Detection Algorithm – Implementation
 
 ## Overview
 
